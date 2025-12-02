@@ -8,7 +8,7 @@ const mongoose= require("mongoose");
 
 const connectDB = async ()=>{
 
-    await mongoose.connect("mongodb+srv://suunnyshekhar:csFBRHuIDBjVn7ah@user.n07ug.mongodb.net/devTinder");
+    await mongoose.connect("mongodb+srv://anandabhinav785:<Abhianand@8298>@cluster0.7duxaex.mongodb.net/?appName=Cluster0");
 } 
 
  module.exports={connectDB};

@@ -9,7 +9,7 @@ app.listen(7777,()=>{
 
 /*
 // app.use("/",(req,res)=>{
-//     res.send("Hii Sunny");
+//     res.send("Hii Abhinav");
 // });
 
 app.use("/hello",(req,res)=>{
@@ -42,7 +42,7 @@ app.get("/user/:userId/:name/:password",(req,res)=>{
     //making routing dyanamic - req.param
     console.log(req.query)
     console.log(req.params);
-    res.send({firstName:"Sunny",lastName:"Shekhar"});
+    res.send({firstName:"Abhinav",lastName:"Anand"});
 });
 app.post('/user',(req,res)=>{
     res.send("Data successfully saved to the database!");
